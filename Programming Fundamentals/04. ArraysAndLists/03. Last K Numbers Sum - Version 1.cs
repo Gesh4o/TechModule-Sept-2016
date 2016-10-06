@@ -1,6 +1,6 @@
 namespace Test
 {
-	using System;
+    using System;
 
     class Program
     {
@@ -25,7 +25,7 @@ namespace Test
                     }
 
                     sum += array[j];
-					count--;
+		    count--;
                 }
 
                 array[i] = sum;
