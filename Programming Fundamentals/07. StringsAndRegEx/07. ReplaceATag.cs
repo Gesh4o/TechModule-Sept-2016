@@ -1,7 +1,7 @@
 namespace StringsAndRegex
 {
-	using System;
-	using System.Text.RegularExpressions;
+    using System;
+    using System.Text.RegularExpressions;
 
     class ReplaceTagMain
     {
@@ -13,10 +13,10 @@ namespace StringsAndRegex
                 string pattern = @"<a.*href=((?:.|\n)*?(?=>))>((?:.|\n)*?(?=<))<\/a>";
                 string replace = @"[URL href=$1]$2[/URL]";
                 
-				string replaced = Regex.Replace(text, pattern, replace);
+		string replaced = Regex.Replace(text, pattern, replace);
                 Console.WriteLine(replaced);
                 
-				text = Console.ReadLine();
+		text = Console.ReadLine();
             }
         }
     }
