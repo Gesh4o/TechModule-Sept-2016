@@ -1,0 +1,6 @@
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\04.RoliTheCoder\bin\Debug\04.RoliTheCoder.exe.config
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\04.RoliTheCoder\bin\Debug\04.RoliTheCoder.exe
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\04.RoliTheCoder\bin\Debug\04.RoliTheCoder.pdb
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\04.RoliTheCoder\obj\Debug\04.RoliTheCoder.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\04.RoliTheCoder\obj\Debug\04.RoliTheCoder.exe
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\04.RoliTheCoder\obj\Debug\04.RoliTheCoder.pdb

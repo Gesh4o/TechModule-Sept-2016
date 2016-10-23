@@ -1,0 +1,6 @@
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\01.CharityMarathon\bin\Debug\01.CharityMarathon.exe.config
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\01.CharityMarathon\bin\Debug\01.CharityMarathon.exe
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\01.CharityMarathon\bin\Debug\01.CharityMarathon.pdb
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\01.CharityMarathon\obj\Debug\01.CharityMarathon.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\01.CharityMarathon\obj\Debug\01.CharityMarathon.exe
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\01.CharityMarathon\obj\Debug\01.CharityMarathon.pdb

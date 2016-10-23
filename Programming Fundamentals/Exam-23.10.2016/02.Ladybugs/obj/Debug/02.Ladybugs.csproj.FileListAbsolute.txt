@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\02.Ladybugs\bin\Debug\02.Ladybugs.exe.config
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\02.Ladybugs\bin\Debug\02.Ladybugs.exe
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\02.Ladybugs\bin\Debug\02.Ladybugs.pdb
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\02.Ladybugs\obj\Debug\02.Ladybugs.exe
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\02.Ladybugs\obj\Debug\02.Ladybugs.pdb

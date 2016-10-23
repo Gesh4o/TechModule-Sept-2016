@@ -1,0 +1,6 @@
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\03.NetherRealms\bin\Debug\03.NetherRealms.exe.config
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\03.NetherRealms\bin\Debug\03.NetherRealms.exe
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\03.NetherRealms\bin\Debug\03.NetherRealms.pdb
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\03.NetherRealms\obj\Debug\03.NetherRealms.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\03.NetherRealms\obj\Debug\03.NetherRealms.exe
+C:\Users\Georgi\Desktop\Work\Local\Solutions\Exam-23.10.2016\03.NetherRealms\obj\Debug\03.NetherRealms.pdb
