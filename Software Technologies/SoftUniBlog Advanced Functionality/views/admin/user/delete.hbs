@@ -1,0 +1,27 @@
+<div class="container body-content span=8 offset=2">
+    <div class="well">
+        <form class="form-horizontal" action="/admin/user/delete/{{userToDelete.id}}" method="post">
+            <fieldset>
+                <legend>Delete User - {{ userToDelete.fullName }}</legend>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="email">Email</label>
+                    <div class="col-sm-4 ">
+                        <input class="form-control" id="email" value="{{ userToDelete.email }}" name="email" required type="text" disabled>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="fullName">Full Name</label>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="fullName" value="{{ userToDelete.fullName }}" name="fullName" disabled>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <a class="btn btn-default" href="/admin/user">Cancel</a>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>

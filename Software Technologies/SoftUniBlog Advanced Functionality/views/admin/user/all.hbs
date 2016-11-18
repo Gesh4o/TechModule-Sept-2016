@@ -1,0 +1,30 @@
+<div class="container body-content">
+    <div class="well">
+        <h2>All Users</h2>
+        <div class="row">
+            <table class="table table-striped table-hover ">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each users}}
+                    <tr {{#if this.isAdmin }}class="info" {{/if}}>
+                        <td>{{ this.id }}</td>
+                        <td>{{ this.fullName }}</td>
+                        <td>{{ this.email }}</td>
+                        <td>
+                            <a href="/admin/user/edit/{{this.id}}">Edit</a>
+                            <a href="/admin/user/delete/{{this.id}}">Delete</a>
+                        </td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

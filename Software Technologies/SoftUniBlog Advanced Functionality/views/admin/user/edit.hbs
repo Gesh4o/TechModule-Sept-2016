@@ -1,0 +1,46 @@
+<div class="container body-content span=8 offset=2">
+    <div class="well">
+        <form class="form-horizontal" action="/admin/user/edit/{{user.id}}" method="post">
+            <fieldset>
+                <legend>Edit User - {{ user.fullName }}</legend>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="email">Email</label>
+                    <div class="col-sm-4 ">
+                        <input class="form-control" id="email" value="{{ user.email }}" name="email" required type="text">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="fullName">Full Name</label>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="fullName" value="{{ user.fullName }}" name="fullName" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="password">Password</label>
+                    <div class="col-sm-4">
+                        <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="confirmedPassword">Confirm Password</label>
+                    <div class="col-sm-4">
+                        <input type="password" class="form-control" id="confirmedPassword" placeholder="Password" name="confirmedPassword">
+                    </div>
+                </div>
+                <div class="form-group">
+                    {{#each roles}}
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <input type="checkbox" name="roles" value="{{ this.name }}" {{#if this.isChecked}} checked {{/if}}/> {{this.name}}
+                        </div>
+                    {{/each}}
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <a class="btn btn-default" href="/admin/user">Cancel</a>
+                        <button type="submit" class="btn btn-success">Edit</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>

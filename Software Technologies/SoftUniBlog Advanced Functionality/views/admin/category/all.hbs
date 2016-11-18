@@ -1,0 +1,30 @@
+<div class="container body-content">
+    <div class="well">
+        <h2>All Categories -
+            <a href="/admin/category/create" class="btn btn-warning">Create New</a>
+        </h2>
+        <div class="row">
+            <table class="table table-striped table-hover ">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each categories}}
+                    <tr>
+                        <td>{{ this.id }}</td>
+                        <td>{{ this.name }}</td>
+                        <td>
+                            <a href="/admin/category/edit/{{this.id}}">Edit</a>
+                            <a href="/admin/category/delete/{{this.id}}">Delete</a>
+                        </td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
